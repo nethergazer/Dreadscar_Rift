@@ -1,0 +1,103 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dread Alpha</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+
+     <nav class="navbar">
+      <span class="open-slide">
+       <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+           <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+           <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+           <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+       </svg>
+     </a>
+    </span>
+
+    <ul class="navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+ <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="#">Affliction</a>
+    <a href="#">Destruction</a>
+    <a href="#">Demonology</a>
+    <a href="#">PvP</a>
+    <a href="#">Races</a>
+    <a href="#">Logs</a>
+</div>
+
+<!--Main page-->
+<!--
+    <div class="containerone">
+            <div class="containerinfo2">
+
+        </div>
+   <div class="box-1">
+        <img src="locktitle.png" width="1000" height="200">
+    </div>
+   </div>
+-->
+
+<div class="Flexmain">
+
+    <div class="container-2">
+          
+<div class="containerleft">
+<img src= "lock_emblem_1.png" height="250" width="250">
+    </div>
+<div class="containerright">
+    <img src="lockforum.png">
+    </div>
+        <div class="box-2">
+                <img src="locktitle.png" width="1000" height="200">
+     <img src="afflictionmenu.png" width="700" height="200"> 
+     <img src="destromenu.png" width="700" height="200">
+     <img src="demomenu.png" width="700" height="200">
+  </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script> 
+    function openSlideMenu(){
+        document.getElementById('side-menu').style.width = '250px';
+        document.getElementsById('main').style.marginLeft = '250px';
+    }
+      function closeSlideMenu(){
+          document.getElementById('side-menu').style.width = '0px';
+          document.getElementsById('main').style.marginLeft = '0px';
+      }
+   </script>
+  </body>
+ </html>
